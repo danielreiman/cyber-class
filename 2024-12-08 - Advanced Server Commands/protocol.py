@@ -1,7 +1,7 @@
 
 from socket import socket
 
-LENGTH_FIELD_SIZE = 1000
+LENGTH_FIELD_SIZE = 7
 PORT = 8820
 
 def check_cmd(data: str):
